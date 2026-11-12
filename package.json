@@ -1,0 +1,42 @@
+{
+  "name": "pi-keln-provider",
+  "version": "1.0.0",
+  "description": "Keln provider for pi: open models through Keln's OpenAI-compatible API, with the live model catalog.",
+  "type": "module",
+  "main": "index.ts",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "extension",
+    "provider",
+    "keln",
+    "open-models"
+  ],
+  "author": "kris-holy",
+  "license": "MIT",
+  "homepage": "https://github.com/kris-holy/pi-keln-provider#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kris-holy/pi-keln-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kris-holy/pi-keln-provider/issues"
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  }
+}
